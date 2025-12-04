@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: serif;
+    background: #f8f5ef;
+    color: #222;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') no-repeat center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    color: gold;
+}
+
+.hero-content h1 {
+    font-size: 54px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 26px;
+    background: gold;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.categories, .best-sellers, .craft {
+    padding: 50px;
+    text-align: center;
+}
+
+.cat-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cat-card {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border: 2px solid #d4af37;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item {
+    padding: 20px;
+    width: 200px;
+    background: #fff;
+    border: 2px solid #d4af37;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
